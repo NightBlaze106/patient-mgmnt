@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=F7F7F7&center=true&vCenter=true&width=435&lines=Smart+Virtual+Health+Solution;Patient+Care+Made+Simple;Find+Emergency+Help+Fast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=F7F7F7&center=true&vCenter=true&width=600&lines=Smart+Virtual+Health+Solutions;Patient+Care+Made+Simple;Find+Emergency+Help+Fast;Connect+with+Doctors+24%2F7" alt="Typing SVG" />
   <p>
     <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
     <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge" />
@@ -46,19 +46,19 @@
   </tr>
   <tr>
     <td width="50%">
-      <h3>💻 Smart Interface</h3>
+      <h3>💻 Doctor-Patient Chat</h3>
       <ul>
-        <li>Responsive design</li>
-        <li>Interactive dashboards</li>
-        <li>User-friendly controls</li>
-        <li>Dark/Light mode</li>
+        <li>Real-time messaging</li>
+        <li>File & image sharing</li>
+        <li>Chat history</li>
+        <li>Notification system</li>
       </ul>
     </td>
     <td width="50%">
-      <h3>🔒 Security</h3>
+      <h3>🔒 Security & Privacy</h3>
       <ul>
         <li>HIPAA compliant</li>
-        <li>Data encryption</li>
+        <li>End-to-end encryption</li>
         <li>Secure authentication</li>
         <li>Privacy controls</li>
       </ul>
@@ -103,13 +103,6 @@ npm start
   <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
   <img src="https://img.shields.io/badge/TomTom-3E3E3E?style=for-the-badge&logo=tomtom&logoColor=white" />
 </p>
-
-## 📞 Screenshots
-
-<div align="center">
-  <img src="path/to/patient-dashboard.png" width="400" alt="Patient Dashboard" />
-  <img src="path/to/emergency-locator.png" width="400" alt="Emergency Locator" />
-</div>
 
 ## 📞 Emergency Services
 
