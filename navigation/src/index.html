@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Hospital Finder</title>
+    <link rel='stylesheet' type='text/css' href='https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.25.1/maps/maps.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="emergency-header">
+            <h1>🚨 Emergency Hospital Finder</h1>
+            <p class="emergency-subtitle">Quick access to nearest emergency medical facilities</p>
+        </header>
+        
+        <div class="content-wrapper">
+            <div id="map"></div>
+            
+            <div class="info-panels">
+                <div class="info-panel emergency-panel">
+                    <h2>🏥 Nearest Emergency Facilities</h2>
+                    <div id="hospital-info">
+                        <p class="loading">Locating nearest emergency facilities...</p>
+                    </div>
+                </div>
+
+                <div class="info-panel route-panel">
+                    <h2>🚗 Emergency Route</h2>
+                    <div id="directions-panel">
+                        <p class="loading">Calculating fastest route...</p>
+                    </div>
+                </div>
+
+                <div class="emergency-contacts">
+                    <h2>☎️ Emergency Contacts</h2>
+                    <div class="contact-list">
+                        <p><strong>Emergency:</strong> 911</p>
+                        <p><strong>Ambulance:</strong> 911</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.25.1/services/services-web.min.js"></script>
+    <script src="https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.25.1/maps/maps-web.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
