@@ -1,50 +1,54 @@
-# React + TypeScript + Vite
+# 🚨 Emergency Hospital Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time emergency medical facility locator that helps users find and navigate to the nearest hospitals during critical situations.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Real-time Hospital Location**: Instantly locate nearby emergency medical facilities
+- **Dynamic Route Planning**: Get the fastest route to the nearest hospital
+- **Interactive Map Interface**: Powered by TomTom Maps SDK
+- **Emergency Contact Information**: Quick access to important emergency numbers
+- **Responsive Design**: Works seamlessly across all devices
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Prerequisites
 
-- Configure the top-level `parserOptions` property like this:
+- Modern web browser
+- Internet connection
+- TomTom Maps API key
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### Installation
+
+1. Clone the repository:
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🤝 Contributing
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📞 Emergency Contacts
+
+- Emergency Services: 911
+- Ambulance: 911
+
+## 👥 Authors
+
+- **Your Name** - *Initial work* - [YourGithub](https://github.com/yourusername)
+
+## 🙏 Acknowledgments
+
+- TomTom for their excellent mapping services
+- Emergency services personnel for their invaluable work
+- Contributors and testers who helped improve this tool
+
+---
+⭐️ If you found this project helpful, please consider giving it a star!
