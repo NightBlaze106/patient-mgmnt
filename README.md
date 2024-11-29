@@ -110,9 +110,8 @@ npm start
   
 | Service | Number |
 |---------|---------|
-| Emergency Services | 911 |
-| Ambulance | 911 |
-| Poison Control | 1-800-222-1222 |
+| Emergency Services | 112 |
+| Ambulance | 108 |
 
 </div>
 
